@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpscare Prank</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Fungsi untuk menampilkan jumpscare
+        function showJumpscare() {
+            document.getElementById('jumpscare-image').style.display = 'block';
+        }
+        
+        // Set waktu tunggu sebelum menampilkan jumpscare
+        setTimeout(showJumpscare, 3000); // 3000 ms = 3 detik
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ayang willskuy?!</h1>
+        <p>Wait for it...</p>
+        <img id="jumpscare-image" src="qiw.jpg" alt="Jumpscare" style="display: none;">
+    </div>
+</body>
+</html>
